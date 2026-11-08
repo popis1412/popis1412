@@ -32,9 +32,12 @@ const parser = new Parser({
     const feed = await parser.parseURL('https://popislab.tistory.com/rss'); // 본인의 블로그 주소
     
     text += `<ul>`;
+
+    const totalItems = feed.items ? feed.items.length : 0;
+    const count = Math.min(10, ftotalItems);
     
     // 최신 10개의 글의 제목과 링크를 가져온 후 text에 추가
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < count; i++) {
         const {title, link} = feed.items[i];
         console.log(`${i + 1}번째 게시물`);
         console.log(`추가될 제목: ${title}`);
