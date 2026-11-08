@@ -33,8 +33,7 @@ const parser = new Parser({
     
     text += `<ul>`;
 
-    const totalItems = feed.items ? feed.items.length : 0;
-    const count = Math.min(10, totalItems);
+    const count = Math.min(feed.items.length, 10);
     
     // 최신 10개의 글의 제목과 링크를 가져온 후 text에 추가
     for (let i = 0; i < count; i++) {
