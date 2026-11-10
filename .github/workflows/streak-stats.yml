@@ -20,7 +20,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=default&disable_animations=true&hide_border=&border_radius=20&locale=ko&timezone=KST&date_format=%5BY.%5Dn.j&mode=weekly
+          options: user=${{ github.repository_owner }}&theme=default&disable_animations=true&border_radius=20&locale=ko&timezone=KST&date_format=%5BY.%5Dn.j&mode=weekly
           path: profile/streak.svg
 
       - name: Commit streak stats
