@@ -16,8 +16,8 @@ let text = `# Hi there 👋
   <img alt="" src= "https://img.shields.io/badge/TypeScript-black?logo=typescript&logoColor=blue"/>
 </p>
 
-## Github 통계
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=popis1412&border_radius=20&locale=ko&timezone=KST&date_format=%5BY.%5Dn.j&mode=weekly" alt="GitHub Streak" /></a>
+## Development Activity
+[![GitHub Streak](https://streak-stats.demolab.com?user=&border_radius=20&locale=ko&timezone=KST&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
 
 ## 📕 Latest Blog Posts
 `;
