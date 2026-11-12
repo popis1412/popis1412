@@ -13,4 +13,4 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=popis1412&border_radius=20&locale=ko&timezone=KST&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
 
 ## 📕 Latest Blog Posts
-<ul><li><a href='https://popislab.tistory.com/3' target='_blank'>테스트 버전입니다.</a></li></ul>
+<ul><li><a href='https://popislab.tistory.com/21' target='_blank'>올리기용</a></li></ul>
